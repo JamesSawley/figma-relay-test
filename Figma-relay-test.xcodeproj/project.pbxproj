@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B8508E24EED3790016B92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8508D24EED3790016B92E /* AppDelegate.swift */; };
+		65B8509024EED3790016B92E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8508F24EED3790016B92E /* SceneDelegate.swift */; };
+		65B8509224EED3790016B92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B8509124EED3790016B92E /* ViewController.swift */; };
+		65B8509524EED3790016B92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B8509324EED3790016B92E /* Main.storyboard */; };
+		65B8509724EED37B0016B92E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B8509624EED37B0016B92E /* Assets.xcassets */; };
+		65B8509A24EED37B0016B92E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B8509824EED37B0016B92E /* LaunchScreen.storyboard */; };
+		65B850A524EED37B0016B92E /* Figma_relay_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B850A424EED37B0016B92E /* Figma_relay_testTests.swift */; };
+		65B850B024EED37B0016B92E /* Figma_relay_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B850AF24EED37B0016B92E /* Figma_relay_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65B850A124EED37B0016B92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B8508224EED3790016B92E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B8508924EED3790016B92E;
+			remoteInfo = "Figma-relay-test";
+		};
+		65B850AC24EED37B0016B92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B8508224EED3790016B92E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B8508924EED3790016B92E;
+			remoteInfo = "Figma-relay-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65B8508A24EED3790016B92E /* Figma-relay-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Figma-relay-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B8508D24EED3790016B92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65B8508F24EED3790016B92E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65B8509124EED3790016B92E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65B8509424EED3790016B92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65B8509624EED37B0016B92E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65B8509924EED37B0016B92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65B8509B24EED37B0016B92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B850A024EED37B0016B92E /* Figma-relay-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Figma-relay-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B850A424EED37B0016B92E /* Figma_relay_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figma_relay_testTests.swift; sourceTree = "<group>"; };
+		65B850A624EED37B0016B92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B850AB24EED37B0016B92E /* Figma-relay-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Figma-relay-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B850AF24EED37B0016B92E /* Figma_relay_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figma_relay_testUITests.swift; sourceTree = "<group>"; };
+		65B850B124EED37B0016B92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B8508724EED3790016B92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B8509D24EED37B0016B92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B850A824EED37B0016B92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B8508124EED3790016B92E = {
+			isa = PBXGroup;
+			children = (
+				65B8508C24EED3790016B92E /* Figma-relay-test */,
+				65B850A324EED37B0016B92E /* Figma-relay-testTests */,
+				65B850AE24EED37B0016B92E /* Figma-relay-testUITests */,
+				65B8508B24EED3790016B92E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65B8508B24EED3790016B92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B8508A24EED3790016B92E /* Figma-relay-test.app */,
+				65B850A024EED37B0016B92E /* Figma-relay-testTests.xctest */,
+				65B850AB24EED37B0016B92E /* Figma-relay-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B8508C24EED3790016B92E /* Figma-relay-test */ = {
+			isa = PBXGroup;
+			children = (
+				65B8508D24EED3790016B92E /* AppDelegate.swift */,
+				65B8508F24EED3790016B92E /* SceneDelegate.swift */,
+				65B8509124EED3790016B92E /* ViewController.swift */,
+				65B8509324EED3790016B92E /* Main.storyboard */,
+				65B8509624EED37B0016B92E /* Assets.xcassets */,
+				65B8509824EED37B0016B92E /* LaunchScreen.storyboard */,
+				65B8509B24EED37B0016B92E /* Info.plist */,
+			);
+			path = "Figma-relay-test";
+			sourceTree = "<group>";
+		};
+		65B850A324EED37B0016B92E /* Figma-relay-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				65B850A424EED37B0016B92E /* Figma_relay_testTests.swift */,
+				65B850A624EED37B0016B92E /* Info.plist */,
+			);
+			path = "Figma-relay-testTests";
+			sourceTree = "<group>";
+		};
+		65B850AE24EED37B0016B92E /* Figma-relay-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65B850AF24EED37B0016B92E /* Figma_relay_testUITests.swift */,
+				65B850B124EED37B0016B92E /* Info.plist */,
+			);
+			path = "Figma-relay-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65B8508924EED3790016B92E /* Figma-relay-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B850B424EED37C0016B92E /* Build configuration list for PBXNativeTarget "Figma-relay-test" */;
+			buildPhases = (
+				65B8508624EED3790016B92E /* Sources */,
+				65B8508724EED3790016B92E /* Frameworks */,
+				65B8508824EED3790016B92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Figma-relay-test";
+			productName = "Figma-relay-test";
+			productReference = 65B8508A24EED3790016B92E /* Figma-relay-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65B8509F24EED37B0016B92E /* Figma-relay-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B850B724EED37C0016B92E /* Build configuration list for PBXNativeTarget "Figma-relay-testTests" */;
+			buildPhases = (
+				65B8509C24EED37B0016B92E /* Sources */,
+				65B8509D24EED37B0016B92E /* Frameworks */,
+				65B8509E24EED37B0016B92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B850A224EED37B0016B92E /* PBXTargetDependency */,
+			);
+			name = "Figma-relay-testTests";
+			productName = "Figma-relay-testTests";
+			productReference = 65B850A024EED37B0016B92E /* Figma-relay-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65B850AA24EED37B0016B92E /* Figma-relay-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B850BA24EED37C0016B92E /* Build configuration list for PBXNativeTarget "Figma-relay-testUITests" */;
+			buildPhases = (
+				65B850A724EED37B0016B92E /* Sources */,
+				65B850A824EED37B0016B92E /* Frameworks */,
+				65B850A924EED37B0016B92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B850AD24EED37B0016B92E /* PBXTargetDependency */,
+			);
+			name = "Figma-relay-testUITests";
+			productName = "Figma-relay-testUITests";
+			productReference = 65B850AB24EED37B0016B92E /* Figma-relay-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B8508224EED3790016B92E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "James Sawley";
+				TargetAttributes = {
+					65B8508924EED3790016B92E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					65B8509F24EED37B0016B92E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 65B8508924EED3790016B92E;
+					};
+					65B850AA24EED37B0016B92E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 65B8508924EED3790016B92E;
+					};
+				};
+			};
+			buildConfigurationList = 65B8508524EED3790016B92E /* Build configuration list for PBXProject "Figma-relay-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65B8508124EED3790016B92E;
+			productRefGroup = 65B8508B24EED3790016B92E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B8508924EED3790016B92E /* Figma-relay-test */,
+				65B8509F24EED37B0016B92E /* Figma-relay-testTests */,
+				65B850AA24EED37B0016B92E /* Figma-relay-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65B8508824EED3790016B92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B8509A24EED37B0016B92E /* LaunchScreen.storyboard in Resources */,
+				65B8509724EED37B0016B92E /* Assets.xcassets in Resources */,
+				65B8509524EED3790016B92E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B8509E24EED37B0016B92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B850A924EED37B0016B92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B8508624EED3790016B92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B8509224EED3790016B92E /* ViewController.swift in Sources */,
+				65B8508E24EED3790016B92E /* AppDelegate.swift in Sources */,
+				65B8509024EED3790016B92E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B8509C24EED37B0016B92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B850A524EED37B0016B92E /* Figma_relay_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B850A724EED37B0016B92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B850B024EED37B0016B92E /* Figma_relay_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65B850A224EED37B0016B92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B8508924EED3790016B92E /* Figma-relay-test */;
+			targetProxy = 65B850A124EED37B0016B92E /* PBXContainerItemProxy */;
+		};
+		65B850AD24EED37B0016B92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B8508924EED3790016B92E /* Figma-relay-test */;
+			targetProxy = 65B850AC24EED37B0016B92E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65B8509324EED3790016B92E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B8509424EED3790016B92E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65B8509824EED37B0016B92E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B8509924EED37B0016B92E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65B850B224EED37B0016B92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65B850B324EED37B0016B92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65B850B524EED37C0016B92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H84988KAZ;
+				INFOPLIST_FILE = "Figma-relay-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JamesRobertSawley.Figma-relay-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65B850B624EED37C0016B92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H84988KAZ;
+				INFOPLIST_FILE = "Figma-relay-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JamesRobertSawley.Figma-relay-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65B850B824EED37C0016B92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H84988KAZ;
+				INFOPLIST_FILE = "Figma-relay-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JamesRobertSawley.Figma-relay-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Figma-relay-test.app/Figma-relay-test";
+			};
+			name = Debug;
+		};
+		65B850B924EED37C0016B92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H84988KAZ;
+				INFOPLIST_FILE = "Figma-relay-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JamesRobertSawley.Figma-relay-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Figma-relay-test.app/Figma-relay-test";
+			};
+			name = Release;
+		};
+		65B850BB24EED37C0016B92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H84988KAZ;
+				INFOPLIST_FILE = "Figma-relay-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JamesRobertSawley.Figma-relay-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Figma-relay-test";
+			};
+			name = Debug;
+		};
+		65B850BC24EED37C0016B92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H84988KAZ;
+				INFOPLIST_FILE = "Figma-relay-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JamesRobertSawley.Figma-relay-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Figma-relay-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65B8508524EED3790016B92E /* Build configuration list for PBXProject "Figma-relay-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B850B224EED37B0016B92E /* Debug */,
+				65B850B324EED37B0016B92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B850B424EED37C0016B92E /* Build configuration list for PBXNativeTarget "Figma-relay-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B850B524EED37C0016B92E /* Debug */,
+				65B850B624EED37C0016B92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B850B724EED37C0016B92E /* Build configuration list for PBXNativeTarget "Figma-relay-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B850B824EED37C0016B92E /* Debug */,
+				65B850B924EED37C0016B92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B850BA24EED37C0016B92E /* Build configuration list for PBXNativeTarget "Figma-relay-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B850BB24EED37C0016B92E /* Debug */,
+				65B850BC24EED37C0016B92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65B8508224EED3790016B92E /* Project object */;
+}
